@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: -apple-system, Segoe UI, Roboto, Cantarell, Open Sans, sans-serif;
+  font-size: 16pt;
+  line-height: 40px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgb(47, 193, 140);
+  text-align: center;
+  line-height: 40px;
+}
+
+#titulo {
+  color: white;
+  text-shadow: 0.1em 0.1em 0.1em rgb(51, 51, 51);
+}
+
+main {
+  max-width: 980px;
+  margin: auto;
+}
+
+.foto {
+  text-align: center;
+}
+
+#minha_foto {
+  width: 400px;
+  margin-top: 120px;
+  border-radius: 16px;
+}
+
+.licoes_aprendidas {
+  width: 95%;
+  margin: auto;
+  height: 500px;
+}
+
+.licoes_a_aprender {
+  width: 95%;
+  margin: auto;
+  height: 500px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  float: left;
+  width: 40%;
+  margin: 2%;
+  padding: 2%;
+  border: 0;
+  height: 295px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 16px;
+}
+
+.lado-direito {
+  display: inline-block;
+  float: right;
+  width: 40%;
+  margin: 2%;
+  padding: 2%;
+  border: 0;
+  height: 295px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 16px;
+}
+
+#tabela {
+  width: 96%;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+  border-radius: 16px;
+}
+
+.blocoTabela {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.redesSociais {
+  display: inline-block;
+  width: 90%;
+  text-align: center;
+}
+
+.redesSociais li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 20px;
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(47, 193, 140);
+  text-align: center;
+  color: white;
+}
+
+#linksRodape li {
+  display: inline-block;
+  width: 10%;
+  list-style-type: none;
+}
